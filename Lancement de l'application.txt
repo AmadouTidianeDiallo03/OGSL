@@ -1,0 +1,22 @@
+1. Préparer la base de données :
+- Installer MySQL Server
+- Installer MySQL Workbench
+- Configuration :
+nom d'utilisateur : root
+mot de passe : @motdepasse
+Créer une base de données : ogsl_db
+
+2. Ouvrir deux terminaux dans l'éditeur de code (Racine du projet) :
+
+TERMINAL POUR le backend Django :
+- cd backend
+- pip install -r requirements.txt
+- .\venv_django\Scripts\activate
+-  python manage.py migrate
+- python manage.py runserver
+
+TERMINAL pour le frontend React :
+- cd frontend
+- Installer reduxjs/toolkit,create-react-app, html2canvas, clsx, jspdf, class-variance-authority, axios, nano-react-app, react-dom, react-router-dom, react-redux, recharts, tailwind-merge, tailwindcss.
+- npm install
+- npm start
