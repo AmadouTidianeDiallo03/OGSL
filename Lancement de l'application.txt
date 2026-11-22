@@ -9,6 +9,7 @@ Créer une base de données : ogsl_db
 2. Ouvrir deux terminaux dans l'éditeur de code (Racine du projet) :
 
 TERMINAL POUR le backend Django :
+- Copier backend/db.env.example en backend/db.env et y mettre vos identifiants MySQL
 - cd backend
 - pip install -r requirements.txt
 - .\venv_django\Scripts\activate

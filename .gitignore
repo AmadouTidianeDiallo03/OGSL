@@ -1,0 +1,13 @@
+# Secrets locaux (ne jamais commiter)
+.env
+db.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv_django/
+
+# Node
+node_modules/
+dist/
